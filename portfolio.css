@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 3s ease;
+
+}a:hover{
+    color: darkorange;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color:darkorange ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px;
+}
+.navbar-logo{
+    width: 40%;
+    font-size: 30px;
+    font-family: 600;
+    color: darkorange;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 60%;
+}
+.navbar-list li{
+    font-size: 20px;
+}
+.section-2,.section-3,.section-4,.footer-1{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+.arrow img{
+    width: 40px;
+}
+.arrow-2{
+    transform: rotate(180deg);
+    bottom: 50px;
+}
